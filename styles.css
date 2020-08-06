@@ -7,7 +7,6 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  /* font-family: 'Roboto', sans-serif; */
   font-family: 'Open Sans', sans-serif;
   color: #222;
   background: #f7f5f0;
@@ -16,7 +15,7 @@ body {
 /* Link Styles */
 a {
   text-decoration: none;
-  color: #999;
+  color: white;
 }
 
 a:hover {
@@ -26,7 +25,7 @@ a:hover {
 /* Section Styles */
 .main-nav {
   width: 100%;
-  /* background: #f8f8fa; */
+  background: #333;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -57,12 +56,12 @@ a:hover {
 }
 
 .nav a:hover {
-  color: white;
+  color: #6633ff;
 }
 
 header {
   text-align: center;
-  background: url('images/small charlotte city.png') no-repeat top center;
+  background: url('images/small-charlotte-city.png') no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -77,17 +76,17 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 3px solid #222;
+  transition: all .3s;
 }
 
 header .profile-image:hover {
-  transform: scale(1.3) rotate(360deg);
+  transform: scale(1.12) rotate(360deg);
 }
 
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #222;
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -111,7 +110,7 @@ header .profile-image:hover {
 }
 
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #3fb0ac;
 }
 
 ul.skills {
@@ -130,6 +129,10 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: #0399ff;
+}
+
+cite {
+  font-size: 16px;
 }
 
 footer {
