@@ -131,8 +131,13 @@ ul.skills {
   background: #0399ff;
 }
 
-cite {
-  font-size: 16px;
+.second-image {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #222;
+  /* transition: all .3s; */
 }
 
 footer {
